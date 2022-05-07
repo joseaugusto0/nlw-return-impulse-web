@@ -1,7 +1,7 @@
 import express from 'express'
 import { SubmitFeedbackUseCase } from './use-cases/submit-feedback-use-case';
 import { PrismaFeedbacksRepository } from './repositories/prisma/prisma-feedbacks-repository';
-import { NodemailerMailAdapter } from '../adapters/nodemailer/nodemailer-mail-adapter';
+import { NodemailerMailAdapter } from './adapters/nodemailer/nodemailer-mail-adapter';
 
 
 export const routes = express.Router()
